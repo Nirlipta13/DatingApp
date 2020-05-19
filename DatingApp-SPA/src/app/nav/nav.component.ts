@@ -17,7 +17,7 @@ export class NavComponent implements OnInit {
     .subscribe(next => {
       console.log('Logged in successfully');
     }, error => {
-      console.log('Failed in login');
+      console.log(error);
     });
   }
 
