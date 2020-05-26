@@ -92,7 +92,7 @@ namespace DatingApp.API
 
             app.UseCors(x=>x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
-             seeder.SeedUsers();
+            //seeder.SeedUsers();
 
             app.UseEndpoints(endpoints =>
             {
